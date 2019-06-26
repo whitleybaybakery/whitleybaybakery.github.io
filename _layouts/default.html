@@ -1,10 +1,13 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         
-        <title>@ViewBag.Message</title>
+        <title>{{page.title}}</title>
 
         <link href='//fonts.googleapis.com/css?family=Ropa+Sans|Alex+Brush' rel='stylesheet' type='text/css'>
       
@@ -13,8 +16,7 @@
 
         <!-- Optional theme -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-       
-        @Styles.Render("~/Content/css")
+    
        
     </head>
     <body>
@@ -53,7 +55,7 @@
                         </div>
                     </div>
               
-                      @RenderBody()
+                      {{ content }}
                 
                 </div>
             </div>
@@ -79,16 +81,6 @@
                 </div>
             </div>
        
-               
-      
-        @Scripts.Render("~/bundles/modernizr")
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/jqueryui")
-        @Styles.Render("~/Content/themes/base/css")
-        <script src="~/Scripts/jquery-ui-timepicker-addon.js"></script>
-        <script src="~/Scripts/DatePickers.js"></script>
-        @RenderSection("scripts", required: false)
-
           <script>
               (function (i, s, o, g, r, a, m) {
                   i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {

@@ -1,115 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+---
+layout: default
+title: "Whitley Bay Artisan Bakery"
+---
+
+<div class="row content">
+    <div class="col-md-12">
         
-        <title>@ViewBag.Message</title>
+            <img class="img-responsive panel panelbg" src="/Images/boardbanner.jpg" alt="blackboard bread menu" />
+            
+     
+    </div>
+</div>
+<div class="row content">
+    <div class="col-md-12">
+        <div class="panelbg panel">
+            
+            <h3>Artisan Bakery Opens In Whitley Bay</h3>
+            <p>After 12 years as a chef and having honed the craft of artisan bakery at the Black Sheep Bakery, Gibside and Newcastle Quayside markets, Robert Bell has now opened a new premises in                                    Whitley Bay.</p>
+            <p>Bringing a taste of France to the North East, the bakery boasts a well stocked fromagerie and charcuterie in addition to croissants, pain au chocolat and speciality breads.</p>
+            <p>Open Tuesday to Friday from 9am to 7pm; 9am to 2pm on a Saturday and 9am to 12pm on a Sunday it has never been easier to enjoy artisan bread at its finest.</p>
 
-        <link href='//fonts.googleapis.com/css?family=Ropa+Sans|Alex+Brush' rel='stylesheet' type='text/css'>
-      
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
-       
-        @Styles.Render("~/Content/css")
-       
-    </head>
-    <body>
-        <div id="wrap">
-           <div class="container">
-                        <div class="row">
-                             <div class="col-md-12"><h1 class="text-center"><a href="/">ARTISAN BAKERY</a></h1></div>
-                        </div>
-                         <div class="row header">
-                             <div class="col-md-12 hidden-xs"><h2 class="text-center">Fromagerie & Charcuterie</h2></div>
-                        </div>
-                          <div class="row">
-                             <div id="madeby" class="col-md-12 text-center">By Robert W Bell</div>
-                        </div>
-                
-                    <div class="row nav content">
-                        <div class="col-md-3">
-                            <div class="menuitem panel">
-                                @Html.MenuLink("ABOUT", "About", "Home")
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="menuitem panel">
-                                @Html.MenuLink("PRODUCTS","Index", "Product")
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="menuitem panel">
-                                @Html.MenuLink("COURSES","Courses","Home")
-                            </div>
-                        </div>
-                        <div class="col-md-3">
-                            <div class="menuitem panel">
-                                @Html.MenuLink("CONTACT", "Contact", "Home")
-                            </div>
-                        </div>
-                    </div>
-              
-                      <!--content-->>
-                
-                </div>
             </div>
+        </div>
+    </div>
+<div class="row content">
+    <div class="col-md-12">
+        <div class="panelbg panel">
+            <h3>Wine & Cheese Tasting Event</h3>
+            <p>On Tuesday 4th March at 7:00 - 8:30 pm. At Whitley Bay Library ~ York Road. Six Wines and Cheese to taste ~ Tickets £12.50 pp</p>
+            <p>Advance tickets available at Whitley Bay Library.</p>
+            <p>Wine by Ad Vintage ~ Suzanne J. Lock ~ Wine Educator. Email: info@advintagewine.co.uk</p>
+            <p><a href="http://www.advintagewine.co.uk">www.advintagewine.co.uk</a> Tel: 0191 253 2979</a></p>
+            <p>Cheese by Artisan Baker Robert W Bell</p>
+        </div>
+    </div>
+</div>
 
-            <div id="footer">
-                <div class="container">
-                
-                    <div id="social" class="col-md-2">
-                         <a href="http://www.newcastlegateshead.com/eat-festival/full-programme/big-eat-weekend/results/eat-gold-awards-p708911">
-                            <img src="~/images/goldawardwinner75.jpg" alt="Eat! Gold Award Winner"/>
-                        </a>
-                   @*     <a href="">Twitter</a> | 
-                        <a href="">Facebook</a>*@
-                    </div>
-                    <address class="col-md-2 col-md-offset-8">
-                        Artisan Bakery<br/>
-                        63 Ilfracombe Gardens<br/>
-                        Whitley Bay<br/>
-                        NE26 3LZ <br/>
-                        <a href="mailto:rob@whitleybaybakery.co.uk">rob@whitleybaybakery.co.uk</a> 
-                    </address>
-                    
-                </div>
-            </div>
-       
-               
-      
-        @Scripts.Render("~/bundles/modernizr")
-        @Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/jqueryui")
-        @Styles.Render("~/Content/themes/base/css")
-        <script src="~/Scripts/jquery-ui-timepicker-addon.js"></script>
-        <script src="~/Scripts/DatePickers.js"></script>
-        @RenderSection("scripts", required: false)
+<div class="row content">
+    <div class="col-md-3">
+        <div class="panelbg panel">
+            <a href="product"><div class="olivebread img-responsive">BREAD</div></a>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="panelbg panel">
+            <iframe width="100%" height="255px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.google.co.uk/maps?sll=55.04757209999958,-1.4525750579747803&amp;sspn=0.0060551653276860054,0.020602447672081543&amp;t=m&amp;q=NE26+3LZ&amp;dg=opt&amp;ie=UTF8&amp;hq=&amp;hnear=Whitley+Bay+NE26+3LZ,+United+Kingdom&amp;ll=55.047909,-1.455169&amp;spn=0.00544,0.016512&amp;z=14&amp;output=embed&iwloc=near"></iframe>
 
-          <script>
-              (function (i, s, o, g, r, a, m) {
-                  i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-                      (i[r].q = i[r].q || []).push(arguments)
-                  }, i[r].l = 1 * new Date(); a = s.createElement(o),
-                  m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-              })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-              ga('create', 'UA-2643486-10', 'whitleybaybakery.co.uk');
-              ga('send', 'pageview');
-
-        </script>
-         <!-- Latest compiled and minified JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-
-        @*<script>
-            $('.equalHeight').each(function () {
-                var eHeight = $(this).innerHeight();
-
-                $(this).find('div').outerHeight(eHeight + 13);
-            });
-        </script>*@
-    </body>
-</html>
+        </div>
+    </div>
+</div>
