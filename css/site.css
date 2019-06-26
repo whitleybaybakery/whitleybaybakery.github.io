@@ -1,0 +1,184 @@
+* {
+	margin: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+background-color: #FAF6E8;}
+
+#wrap {
+    height: auto !important;
+    margin: 0 auto -150px;
+    min-height: 100%;
+    padding: 0 0 150px;
+}
+
+#footer {
+    height:150px;
+    background-color: #5A4A42;
+    position:relative;
+}
+
+p, li {
+    font-family: 'Ropa Sans', sans-serif;
+}
+a
+{text-decoration: none;}
+
+h1 {
+font-family: 'Ropa Sans', sans-serif;
+font-size: 7.8em;
+color: #5A4A42;
+}
+h1 a, h1 a:visited
+{
+    color: #5A4A42;
+}
+h2
+{font-family: 'Alex Brush', cursive;
+ font-size: 5.8em;
+ color: #856150;
+}
+h3
+{
+    font-family: 'Ropa Sans', sans-serif;
+}
+.header h2 {
+margin:0;
+}
+#madeby
+{font-family: 'Alex Brush', cursive;
+ margin: 0 auto 10px auto;
+ font-size: 2.5em;
+ color: #856150;
+}
+
+.menuitem {    
+    text-align: center;
+    vertical-align: middle;
+   /*background-color: rgba(194, 176, 158, 0.8);*/ 
+    background-color: #C2B09E;
+    
+}
+.menuitem .currentMenuItem {
+    background-color: #5A4A42;
+    color: #C2B09E;
+}
+.menuitem:hover
+{
+    background-color: #5A4A42;
+}
+.menuitem:hover a
+{
+    /*color: rgba(194, 176, 158, 0.8);*/
+    color: #C2B09E;
+
+}
+.menuitem a {
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 2em;
+    color: #5A4A42;
+    font-weight: 600;
+    text-decoration: none;
+    height: 40px;
+    display:block;
+}
+
+    .content .panelbg {
+         background-color: #C2B09E;
+         padding: 15px;
+    }
+    .content .hometext p {
+        font-size: 1.3em;
+    }
+
+.olivebread
+{ background: url('../images/oliveandbaconbread.jpg') no-repeat;
+   font-family: 'Black Ops One', cursive;
+   font-family: 'Ropa Sans', sans-serif;
+    font-size: 2em;
+  height: 260px;
+  padding: 5px 0 0 3px;
+  color: #5A4A42;
+}
+
+#social
+{
+padding:20px 10px 0 10px;
+color: #FAF6E8;
+float: left;
+line-height: 1.333em;
+}
+.footer a {
+ color: #FAF6E8;
+}
+
+address {
+padding:20px 10px 0 0;
+color: #FAF6E8;
+float: right;
+line-height: 1.333em;
+}
+.adminpanel {
+    padding:20px 0 30px 0;
+}
+    .adminpanel table td, .adminpanel table th{
+        padding:10px;
+        border-bottom:1px dotted #ccc;
+    }
+    .adminpanel table th{
+        text-align:left;
+    }
+
+.button {
+    display:block;
+    padding:10px;
+    margin:10px 0 0 0;
+    background-color:#C2B09E;
+}
+    .button:hover {
+        background-color:#5A4A42;
+    }
+
+.text-box, textarea {
+    width:500px;
+}
+.editor-label {
+    font-weight:600;
+}
+.editor-field {
+    margin:0 0 5px 0;
+}
+.eatwinner {
+    padding:10px 0 0 0;
+}
+.product h2 {
+    font-size:3em;
+}
+
+@media (max-width: 768px) {
+    #footer {
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    h1
+        { font-size:3em;}
+}
+
+/* css for timepicker */
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { float: left; clear:left; padding: 0 0 0 5px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 45%; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+
+.ui-timepicker-rtl{ direction: rtl; }
+.ui-timepicker-rtl dl { text-align: right; padding: 0 5px 0 0; }
+.ui-timepicker-rtl dl dt{ float: right; clear: right; }
+.ui-timepicker-rtl dl dd { margin: 0 45% 10px 10px; }
+
